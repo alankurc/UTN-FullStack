@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alan Kurc - Modulo 3 - Unidad 2</title>
+    <style>
+        body{display: flex; justify-content: center; align-items: center;}
+        form{padding-top: 25px;}
+        form div{margin-bottom: 15px; text-align: center;}
+        label{display: block; font-weight: bold; text-align: center;}
+        .btn{background-color: #000; border: 1px solid #000; color: #fff; padding: 5px 20px;}
+        .btn:hover{background-color: #fff; color: #000;}
+    </style>
+</head>
+<body>
+<form method="post" action="/form">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+    </div>
+    <div>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </div>
+    <div>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad">
+    </div>
+    <div>
+        <label for="celular">Teléfono celular</label>
+        <input type="tel" name="celular" id="celular">
+    </div>
+    <div>
+        <label for="nacimiento">País de nacimiento</label>
+        <input type="text" name="nacimiento" id="nacimiento">
+    </div>
+    <div>
+        <label for="residencia">Pais de residencia</label>
+        <input type="text" name="residencia" id="residencia">
+    </div>
+    <div>
+        <input type="submit" value="Cargar" class="btn">
+    </div>
+</form>
+</body>
+</html>
